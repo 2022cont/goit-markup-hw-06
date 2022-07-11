@@ -71,15 +71,15 @@
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
 					<button class="btn-modal-close" type="button" data-modal-close>
-						<svg width="18" height="18">
-							<use href="./images/icons.svg#icon-close-black"></use>
+						<svg class="icon-close" width="18" height="18">
+							<use href="./images/icons.svg#icon-close"></use>
 						</svg>
 					</button>
 					<!-- Форма -->
 					<form class="form">
 						<strong class="title-form">Оставьте свои данные, мы вам перезвоним</strong>
 
-						<div class="group" rol="group">
+						<div class="group">
 							<label class="form-label" for="name-user">
 								<input class="form-input" type="text" name="name-user" id="name-user" />
 								<svg class="form-icon" width="18" height="18">
@@ -534,7 +534,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="form-newsletter">
+				<form class="form-newsletter">
 					<label class="form-label-newsletter" for="email">
 						<span class="label-title-newsletter">Подписаться</span>
 						<input class="form-input-newsletter" type="email" name="email" id="email" placeholder="E-mail" />
@@ -545,7 +545,7 @@
 							<use href="./images/icons.svg#icon-send"></use>
 						</svg>
 					</div>
-				</div>
+				</form>
 			</div>
 		</footer>
 		<script src="./modal.js"></script>
